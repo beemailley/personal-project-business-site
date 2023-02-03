@@ -1,7 +1,37 @@
+
+.container{
+  position:relative;
+  text-align:center;
+  color: white;
+  text-shadow: 2px 2px 4px #0f3e3e;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  opacity: .75;
+}
+
+form{
+  display: inline;
+}
+
 /* the + sign is used to select the sibling that comes immediately next to the element you selected.
 in this case it is the div with the answer class next to the div with the active class.
 this can be used for the FAQ-accordion. read more here: https://www.w3schools.com/css/css_combinators.asp */
 
 .active + .answer {
-  /* some styling here */
+  display: block;
+  color: teal;
+}
+
+.answer {
+  display:none;
 }

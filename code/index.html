@@ -3,13 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business Site</title>
-    <!-- dont forget to add a css file and link it here! -->
-  </head>
+    <title>Rock Collectors</title>
+    <link rel="stylesheet" href="./style.css"/>
+   </head>
   <body>
-    <!-- video or image as a header is cool :) -->
-
-    <!-- Signup form -->
+     <header> 
+      <div class="container">
+      <img src="./photos/pebbles1.jpg" alt="pebbles">
+      <div class="centered"><h1>I like that rock. It's a nice rock.</h1></div>
+      </div>
+     </header>
+    <div><h2> Do you love rocks?</h2></div>
+    <div><h2> Do you need more rocks?</h2></div>
+    <div><h2> Sign up for our Rock of the Month Club now!</h2></div>
+    <form action="http://httpbin.org/anything" method="post">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+      <label for="freq">Frequency that you'd like to receive your rocks:</label>
+      <select id="freq" name="freq"> 
+        <option value="monthly">Monthly</option>
+        <option value="biannual">Biannually</option>
+        <option value="annual">Annually</option>
+      </select>
+      <label for="gift">Is this a gift?</label>
+      <select id="gift" name="gift">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <label for="submit">Submit</label>
+      <input type="submit" id="submit" name="submit">
+    </form>
 
     <section class="accordion">
       <!-- Accordion -->
@@ -25,6 +52,6 @@
         <p>Lorem ipsum...</p>
       </div>
     </section>
-    <!-- dont forget to link the javascript file here! -->
+   <script src="./script.js"></script>
   </body>
 </html>
