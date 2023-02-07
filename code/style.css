@@ -15,25 +15,148 @@ video{
   left: 10px;
   right: 10px;
   top: 100px;
-  color: #fff;
-  text-shadow: rgb(8, 8, 8) 2px 0 10px;
   text-align:center;
+  font-family: Glass Antiqua;
+  font-size:xx-large;
+  
 }
 
+.h1text{
+  color: #edf6f9;
+  text-shadow: 2px 2px 4px #006d77;
+}
 
-form{
-  display: inline;
+.rock{
+  color: #ffddd2;
+}
+
+body{
+  background-color: #e29578;
+  margin: 0;
+}
+
+h1{
+  font-family: Glass Antiqua;
+  color: #ffddd2;
+  text-align: center;
+  text-shadow: 2px 2px 4px #006d77;
+}
+
+h2{
+  font-family: Glass Antiqua;
+  text-align: center;
+  color:#006d77;
+  
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  gap: 5px;
+  justify-items:center;
+}
+
+.signupform{
+  background-color: #edf6f9;
+  padding: 15px;
+  min-width: 75px;
+  width: 90%;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+label{
+  font-family: Nunito;
+  display: block;
+  margin-top: 5px;
+}
+
+input{
+  font-family: Nunito;
+}
+
+option{
+  font-family: Nunito;
+}
+
+#freq{
+  font-family: Nunito;
+}
+
+#gift{
+  font-family: Nunito;
+}
+
+.submit{
+  display:block;
+  padding:2px;
+  margin: 7px 0px;
 }
 
 /* the + sign is used to select the sibling that comes immediately next to the element you selected.
 in this case it is the div with the answer class next to the div with the active class.
 this can be used for the FAQ-accordion. read more here: https://www.w3schools.com/css/css_combinators.asp */
 
+.accordion{
+  background-color: #edf6f9;
+  padding: 15px;
+  min-width: 75px;
+  width: 90%;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.question{
+  font-family: Glass Antiqua;
+  font-size:larger;
+  font-weight: bold;
+  color:#006d77;
+}
+
 .active + .answer {
   display: block;
-  color: teal;
-}
+  font-family: Nunito;
+  }
 
 .answer {
   display:none;
+}
+
+footer{
+  background-color: #edf6f9;
+  margin: 15px;
+  height: 120px;
+  border-radius: 15px;
+
+}
+
+.contactme{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.contact-logo{
+  width: 40px;
+  opacity: .65;
+}
+
+.contact-logo:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-family: 'Nunito';
+  color: #006d77;
 }

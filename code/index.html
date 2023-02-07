@@ -5,54 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Collectors</title>
     <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Glass+Antiqua">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
    </head>
-  <body>
-     <header> 
+  
+   <body>
+<!-- video or image as a header is cool :) -->
+     
+    <header> 
       <video autoplay muted loop poster="./photos/pebbles1.jpg">
         <source src="videos/pebbles-video.mp4"  type="video/mp4">
        </video>
       <div class="head_overlay">
-        <h1>I like that rock. It's a nice rock.</h1>
+        <h1><span class=h1text>I like that <span class=rock>rock</span>. It's a nice <span class=rock>rock</span>.</span></h1>
      </header>
-    <div><h2> Do you love rocks?</h2></div>
-    <div><h2> Do you need more rocks?</h2></div>
-    <div><h2> Sign up for our Rock of the Month Club now!</h2></div>
-    <form action="http://httpbin.org/anything" method="post">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="fname">
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lname">
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email">
-      <label for="freq">Frequency that you'd like to receive your rocks:</label>
-      <select id="freq" name="freq"> 
-        <option value="monthly">Monthly</option>
-        <option value="biannual">Biannually</option>
-        <option value="annual">Annually</option>
-      </select>
-      <label for="gift">Is this a gift?</label>
-      <select id="gift" name="gift">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
-      <label for="submit">Submit</label>
-      <input type="submit" id="submit" name="submit">
-    </form>
 
-    <section class="accordion">
-      <!-- Accordion -->
-      <h1>FAQ</h1>
+     <!-- Signup form -->
+     <h1> Do you love rocks?</h1>
+     <h1> Do you need more rocks?</h1>
 
-      <div class="question" id="section1">Section 1</div>
-      <div class="answer">
-        <p>Lorem ipsum...</p>
+    <div class="container">
+      <div class="signupform">
+        <h2> Sign up for our Rock of the Month Club now!</h2>
+      <form action="http://httpbin.org/anything" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email">
+        <label for="freq">Frequency that you'd like to receive your rocks:</label>
+        <select id="freq" name="freq"> 
+          <option value="monthly">Monthly</option>
+          <option value="biannual">Biannually</option>
+          <option value="annual">Annually</option>
+        </select>
+        <label for="gift">Is this a gift?</label>
+        <select id="gift" name="gift">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select> 
+        <input type="submit" id="submit" name="submit" class="submit">
+      </form>
       </div>
 
-      <div class="question" id="section2">Section 2</div>
+    <!-- Accordion -->
+    <section class="accordion">
+      <h2>FAQ</h2>
+      <div class="question" id="section1">What types of rocks do we ship?</div>
       <div class="answer">
-        <p>Lorem ipsum...</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quae!
+        </p>
+      </div>
+      <div class="question" id="section2">Where do we ship rocks?</div>
+      <div class="answer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure?</p>
       </div>
     </section>
+  </div>
+
+   <footer>
+    <div class="contactme">
+      <a href="https://www.linkedin.com/in/bridget-mailley/"><img src="./photos/linkedinlogo.png" class="contact-logo" alt="small linkedin logo"></a>
+      <a href="https://github.com/beemailley"><img src="./photos/githublogo.png" class="contact-logo" alt="small github logo"></a>
+    </div>
+    <div class="aboutme">
+      Designed by Bridget Mailley. Technigo Web Development Bootcamp 2023.
+     </div>
+    </footer>
+
    <script src="./script.js"></script>
   </body>
 </html>
