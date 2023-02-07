@@ -14,11 +14,10 @@ video{
   position: absolute;
   left: 10px;
   right: 10px;
-  top: 100px;
+  top: 50px;
   text-align:center;
   font-family: Glass Antiqua;
   font-size:xx-large;
-  
 }
 
 .h1text{
@@ -46,12 +45,11 @@ h2{
   font-family: Glass Antiqua;
   text-align: center;
   color:#006d77;
-  
 }
 
 .container{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5px;
   justify-items:center;
 }
@@ -124,9 +122,8 @@ this can be used for the FAQ-accordion. read more here: https://www.w3schools.co
 
 footer{
   background-color: #edf6f9;
-  margin: 15px;
   height: 120px;
-  border-radius: 15px;
+  text-align: center;
 
 }
 
