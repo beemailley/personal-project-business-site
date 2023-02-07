@@ -1,12 +1,19 @@
 # Business Site
 
-Replace this readme with your own information about your project. 
+There were a few things required for this project:
+A header with responsive image or video.
+A sign-up with at least three different input types.
+An FAQ with JavaScript.
+Styling.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+I originally worked on this project with a team, and our website can be found here: https://endearing-gumption-b7923c.netlify.app/
+
+However, I wanted to practice several of the things we learned as a team, and so built my own site linked below.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I took the opportunity to practice CSS styling, including CSS grid; how to build a hero video with a text overlay; and how to include basic JavaScript.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
+Here is the link to my project: https://app.netlify.com/sites/teal-shortbread-12e4e0/overview
