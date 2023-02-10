@@ -1,4 +1,4 @@
-# Business Site
+# I Like That Rock - Business Site
 
 There were a few things required for this project:
 A header with responsive image or video; a sign-up with at least three different input types; an FAQ with JavaScript; and styling.
