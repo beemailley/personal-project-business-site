@@ -13,4 +13,4 @@ I took the opportunity to practice CSS styling, including CSS grid; how to build
 
 ## View it live
 
-Here is the link to my project: https://app.netlify.com/sites/teal-shortbread-12e4e0/overview
+Here is the link to my project: https://teal-shortbread-12e4e0.netlify.app/
